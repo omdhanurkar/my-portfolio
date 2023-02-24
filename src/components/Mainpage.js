@@ -15,7 +15,7 @@ const Mainpage = () => {
                     Hi,I'M OMPRAKASH
                 </p>
                 <h1>
-                    BackEnd Developer
+                    Backend Developer
                 </h1>
                 <div>
                     <Link to="/project" className='btn'>Projects
