@@ -23,13 +23,14 @@
     width: 100%;
 }
 
+
 .project-title {
     text-align: center;
     color: white; 
     padding: 1rem 0;
 }
 
-.pro-detailes p {
+.pro-details p {
     padding-bottom: 1rem;
     font-size: 1.1rem;
     text-align: justify;
@@ -38,7 +39,7 @@
 .pro-btns {
     display: flex;
     justify-content: center;
-    padding: 2rem ;
+    padding: 0.5rem 0;
 }
 
 .pro-btns .btn {
@@ -47,7 +48,7 @@
 
 @media screen and (max-width:740px) {
     .project-container {
-        max-width: 100%;
+        max-width: 90%;
         margin: auto;
         grid-template-columns: 1fr;
     }
