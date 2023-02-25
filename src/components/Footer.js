@@ -39,16 +39,14 @@ const Footer = () => {
                 <div className="right">
                     <h4>About</h4>
                     <p>
-                        This is me Omprakash Dhanurkar,I Graduated in mechancical
-                        Enginnering but I was interested in It Sector so after graduation i
-                        joined function bottcamp here i learned some technologies , i have
-                        made projects on it, now i am backed developer
+                        This is Omprakash Dhanukar <br />
+                        Nodejs Developer<br /><br />
                     </p>
                     <div className="social">
-                          
-                        <a href="https://www.linkedin.com/in/omprakash-dhanurkar-86a0b2170/" ><FaLinkedin size={20} style={{ color: "#fff", marginRight: "1rem" }}/></a>
-                        
-                        
+
+                        <a href="https://www.linkedin.com/in/omprakash-dhanurkar-86a0b2170/" ><FaLinkedin size={20} style={{ color: "#fff", marginRight: "1rem" }} /></a>
+
+
                         <a href="https://github.com/omdhanurkar" ><FaGithub size={20} style={{ color: "#fff", marginRight: "1rem" }} /></a>
                     </div>
                 </div>

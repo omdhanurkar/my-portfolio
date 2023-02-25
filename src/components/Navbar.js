@@ -22,7 +22,7 @@ const Navbar = () => {
     return (
         <div className={color ? "Header Header-bg" : "Header"}>
             <Link to="/">
-                <h1>My Portfolio</h1>
+                <h1 className='head~'>My Portfolio</h1>
             </Link>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
                 <li>
@@ -36,6 +36,9 @@ const Navbar = () => {
                 </li>
                 <li>
                     <Link to='/about'>About</Link>
+                </li>
+                <li>
+                    <Link to='https://drive.google.com/file/d/1sCBBcHiaZ71aKVBbBIHhqSaM4VRGbzc7/view?usp=sharing'>Resume</Link>
                 </li>
             </ul>
             <div className='hamburger' onClick={handleClick}>

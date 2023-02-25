@@ -1,7 +1,14 @@
+
 .mask {
     width: 100%;
     height: 100vh;
     position: relative;
+}
+
+.name {
+    
+    font-size: 100px;
+    color: rgb(255, 251, 0);
 }
 
 .into-img {

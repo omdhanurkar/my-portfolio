@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Tilt+Prism&display=swap');
+
 .Header {
     display: flex;
     justify-content: space-between;
@@ -8,9 +10,17 @@
     height: 90px;
     z-index: 10;
 }
-.Header-bg{
-background-color: rgba(0,0,0,0.85);
-transition: 0.5s;
+
+.head{
+    
+    font-family: 'Tilt Prism', cursive;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 5px #83647e;
+}
+
+.Header-bg {
+    background-color: rgba(0, 0, 0, 0.85);
+    transition: 0.5s;
 }
 
 .nav-menu {
